@@ -1,0 +1,174 @@
+/** 공통 */
+ul { 
+	list-style: none; 
+	padding: 0; 
+	margin: 0;
+}
+
+ul li {
+	margin: 0;
+}
+.body-admin { 
+	margin-top: 87px;
+	padding: 20px 15px;
+	min-width: 1000px;
+}
+
+.mtitle { 
+	font-weight: bold; 
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.table-cols { 
+	border-spacing: 0;
+	padding: 0;
+	border-top: 1px solid #212121;
+	width: 100%;
+}
+.table-cols th {
+	background: #f8f8f8;
+	width: 130px;
+}
+.table-cols th, .table-cols td { 
+	padding: 7px 10px; 
+	border-bottom: 1px solid #d5d5d5;
+}
+.table-cols tr:last-of-type th, 
+.table-cols tr:last-of-type td {
+	border-bottom: 1px solid #212121;
+}
+
+.table-rows {
+	border-spacing: 0;
+	padding: 0;
+	width: 100%; 
+}
+.table-rows thead th {
+	border: 1px solid #212121;
+	border-left: 0;
+	border-right: 0;
+	padding: 7px 10px;
+	text-align: center;	
+}
+.table-rows tbody td {
+	border-bottom: 1px solid #d5d5d5;
+	padding: 7px 10px;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'] {
+	border: 1px solid #d5d5d5;
+	padding: 10px;
+	width: 100%; 
+}
+select {
+	border: 1px solid #d5d5d5;
+	height: 36px;
+}
+
+.table-btn { 
+	margin: 15px 0; 
+	text-align: center;
+}
+
+.table-action {
+	border-bottom: 1px solid #212121;
+	padding: 10px;
+}
+
+.btn1 {
+	background:#212121;
+	color: #ffffff;
+	border: 0;
+	height: 45px;
+	padding: 0 50px;
+	border-radius:5px;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 45px;
+}
+
+.sbtn1, .sbtn2 { 
+	background: #212121;
+	color: #ffffff;
+	border: 0;
+	display: inline-block;
+	font-size: 12px;
+	padding: 5px 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.sbtn2 {
+	padding: 0 20px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 15px;	
+}
+
+.category_tab {
+	margin-bottom: 15px;
+}
+.category_tab .tab {
+	display: inline-block;
+	border: 1px solid #212121;
+	padding: 8px 20px;
+	border-radius: 20px;
+}
+
+.category_tab .tab.on {
+	background-color: #212121;
+	color: #ffffff; 
+}
+
+/** outline/header/inc/admin.jsp */
+.body-admin .admin_menu  {
+	position: fixed; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #212121;
+	height: 48px;
+}
+.body-admin .admin_menu:after {
+	clear: left;
+	content: '';
+	display: block;
+}
+
+.body-admin .admin_menu li { 
+	float: left;	
+}
+.body-admin .admin_menu li a { 
+	display: block; 
+	padding: 15px 25px; 
+	color: #ffffff;
+}
+
+.body-admin .admin_menu li a:hover {
+	background-color: orange;
+	color: #212121;
+}
+
+/**  goods/_sub.jsp */
+.body-admin .sub_menu { 
+	position: fixed;
+	top: 48px; 
+	left: 0; 
+	border-bottom: 1px solid #d5d5d5;
+	width: 100%;
+	height: 39px;
+	background:#ffffff; 
+}
+
+.body-admin .sub_menu a {
+	display: inline-block;
+	padding: 10px 20px;
+}
+.body-admin .sub_menu a:hover {
+	text-decoration: underline; 
+}
+
+

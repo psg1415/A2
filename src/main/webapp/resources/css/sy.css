@@ -1,0 +1,212 @@
+/** join.jsp */
+
+.join {
+	position:absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    border-radius:20px;
+}
+.join input {
+	width: 90%;
+	height: 30px;
+	padding-left: 20px;
+	border-radius:20px;
+	border-color: rgba(0, 0, 0, 0.25);
+}
+
+.join input[type=button], .join input[type=reset]{
+	border-radius: 20px;
+	cursor: pointer;
+}
+.button1{  /**join, address 버튼*/
+	margin-top : 5%;
+}
+
+
+.cancle{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	margin: 0 5%;
+}
+.cancle1{
+	min-height: 10px;
+	flex-basis: 10px;
+	flex-grow: 1;
+	border: 1px solid;
+	border-color: rgba(0, 0, 0, 0.25);
+	border-radius:20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+/** address.jsp */
+
+.address {
+	position:absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+    width: 50%;
+    height: 220px;
+    background-color: white;
+    border-radius:20px;
+}
+.address input {
+	width: 90%;
+	height: 30px;
+	padding-left: 20px;
+	border-radius:20px;
+	border-color: rgba(0, 0, 0, 0.25);
+}
+.address input[type=button], .address input[type=reset] {
+	border-radius: 20px;
+	cursor: pointer;
+}
+/** account.jsp */
+
+.account {
+	position:absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+    width: 50%;
+    height: 440px;
+    background-color: white;
+    border-radius:20px;
+}
+.account input {
+	width: 90%;
+	height: 30px;
+	padding-left: 20px;
+	border-radius:20px;
+	border-color: rgba(0, 0, 0, 0.25);
+}
+.account input[type=button], .join input[type=reset]{
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+/**index.jsp*/
+
+.main{	
+	display:flex;
+	justify-content : flex-start;
+	flex-wrap: wrap;
+	padding: 2rem 10%;
+	word-break: break-all;
+	
+}
+.main .product{
+	width:25%;
+	text-align:left;
+	padding-right:1.5rem;
+}
+.goodsPrice {
+	color: red;
+}
+.goodsImage {
+	width: 100%;
+	height: 60%;
+}
+
+.goodsNm, .goodsPrice{
+	font-size:1.1rem;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+ .join {
+ 	width: 60%;
+ 	text-align: center;
+}
+
+ .address {
+	width: 50%;
+	}
+	.account {
+	top:10%;
+	width: 80%;
+	text-align: center;
+	}
+	.account input[type=button]{
+	  width: 50%;
+}
+
+	.main .product{
+	width:33.3%;
+	}
+	.goodsNm, .goodsPrice{
+	font-size:1.1rem;
+	}
+.newGoods span{
+	display:none;
+}
+.newGoods div{
+	justify-content:center;
+}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.hjoin{
+		margin: 10px;
+	}
+	.join {
+		top: 55%;
+		width: 80%;
+		height: 470px;
+	}
+	.join input {
+		padding: 0;
+		text-align: center;
+	}
+ 	.add {
+		width:60%;
+	}
+	.address {
+		width: 50%;
+	}
+	.account {
+		top:10%;
+		width: 80%;
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-device-width: 768px){
+	.hjoin{
+		margin: 10px;
+	}
+	.join {
+		top: 55%;
+		width: 80%;
+		height: 470px;
+	}
+	.join input {
+		padding: 0;
+		text-align: center;
+	}
+    .add {
+		
+		text-align: center;
+ 	}
+	.address {
+		top: 50%;
+		text-align: center;
+	}
+	
+	.account {
+		top: 55%;
+		text-align: center;
+	}
+	.main .product{
+	width:50%;
+	}
+}

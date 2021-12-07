@@ -1,0 +1,50 @@
+/** 주문 상품 목록 */
+.order_item_list {
+	list-style: none;
+	background-color: #ffffff;
+	padding: 15px;
+	box-shadow: 2px 2px 5px #d5d5d5;
+	border-radius: 10px;
+}
+
+.order_item_list .items {
+	border-bottom: 1px solid #d5d5d5;
+	padding: 10px 0; 
+}
+.order_item_list .items:last-of-type {
+	border-bottom: 0; 
+}
+
+.order_item_list .items:after {
+	clear: left;
+	content: '';
+	display: block;
+}
+
+.order_item_list .items .left {
+	float: left;
+	width: 104px;
+}
+.order_item_list .items .right {
+	float: left;
+	margin-left: 10px;
+	width: calc(100% - 114px); 
+}
+
+.order_item_list .items input[type='checkbox'] {
+	vertical-align: middle;
+}
+
+.order_item_list .items .goods_img {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	vertical-align: middle;
+}
+
+.order_item_list .items .goodsCnt {
+	border: 1px solid #d5d5d5;
+	width: 60px;
+} 
+
+main { margin-top: 15px; height: 100%; }

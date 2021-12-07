@@ -1,0 +1,53 @@
+/** goods/_goods_main_banner.jsp */
+.body-goods-view .goods_nm, .body-goods-view .stitle  { 
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+	background-color: #212121; 
+	text-align: center;
+	padding: 15px 0;
+	font-size: 1.2rem;
+	color: #ffffff;
+}
+.main_content {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 10px 150px; 
+	
+}
+
+.body-goods-view .stitle {
+	margin: 15px 0;
+}
+
+
+.body-goods-view .main_rolling img {
+	display: block;
+	width: 100%;
+}
+
+
+.body-goods-view .explain img {
+	max-width: 780px;
+}
+
+.body-goods-view .goods_info {
+	padding: 20px 0;
+	background-color: #ffffff;
+}
+
+.body-goods-view .goods_info .price {
+	font-size: 1.2rem;
+}
+
+
+.body-goods-view .control_box .inner {
+	padding: 25px;
+	background-color: #ffffff;
+	border-top: 2px solid #000000;
+	text-align: right;
+}
+
+@media all and (max-width: 800px) {
+	.body-goods-view .explain img { 
+		width: 100%;
+	}
+}
