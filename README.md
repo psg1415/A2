@@ -1,5 +1,7 @@
-# Diet Shopping Mall :fork_and_knife:
-* JSP로 구현한 다이어트 음식 쇼핑몰 (<http://dietshop1.cafe24.com>)
+# Diet Shop - 팀프로젝트
+* JSP로 구현한 다이어트 음식 쇼핑몰 [사이트링크](http://dietshop1.cafe24.com)
+* 개발인원: 5명
+* css및 views담당
 ## 개요
 ### 1. 서비스 내용 
 1. 다이어트 음식 카테고리별 링크 구현
